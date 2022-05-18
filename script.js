@@ -60,6 +60,9 @@ for(var i=0;i<buttons.length;i++){
                 operand2 = null;
                 operator = null;
             }
+        }else if(value =="<="){
+            let content=display.innerText;
+            display.innerText=content.substring(0,content.length-1);
         }
         else
         {
